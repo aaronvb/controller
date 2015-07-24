@@ -1,0 +1,17 @@
+Name = "avb";
+Layout = "Standard";
+Version = "1";
+Author = "avb";
+KLL = "0.3";
+Date = "2015-09-06";
+
+U"BACKSLASH" : U"BACKTICK";
+U"BACKTICK" : U"BACKSPACE";
+U"BACKSPACE" : U"BACKSLASH";
+
+U"FUNCTION1" : layerShift( 1 );
+U"FUNCTION2" : U"LCTRL";
+U"FUNCTION3" : U"Down";
+U"FUNCTION4" : U"Right";
+U"RALT" : U"Left";
+U"RShift"    : U"Up";
