@@ -1,3 +1,23 @@
+My Fork
+======================
+This is my fork of the Kiibohd controller which includes my kll layout for the Infinity Keyboard:
+(http://i.imgur.com/bZDkW9E.jpg)
+
+To build, make sure all the dependencies are installed which you can find in the original docs.
+
+```
+$ mkdir build
+$ cd build
+$ ../kll/infinity/build.sh
+```
+
+Put keyboard into programmable mode.
+
+```
+$ dfu-util -D kiibohd.dfu.bin
+```
+
+
 The Kiibohd Controller
 ======================
 
